@@ -1,7 +1,7 @@
 let summ;
 
 function sum(m, n) {
-  summ = m + n;
+	summ = m + n;
 }
 
 sum(1, 1);
