@@ -12,7 +12,6 @@ let calculator = {
   mul() {
     return this.a * this.b;
   },
-
 };
 
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
