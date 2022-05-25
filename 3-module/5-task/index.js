@@ -2,6 +2,7 @@ function getMinMax(str) {
   let strings = str.split(' ');
 
   let nums = strings
+
     .filter((value) => isFinite(value))
     .map((value) => +value)
 
@@ -21,6 +22,7 @@ function getMinMax(str) {
 
   let max = nums[lastElementIndex];
   let min = nums[0];
+
 
   return {min, max};
 }
